@@ -3,9 +3,9 @@ package pkg
 import (
 	"encoding/json"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/signing"
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/signing"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/pkg/errors"
 )
 

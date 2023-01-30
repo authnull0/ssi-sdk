@@ -20,8 +20,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/pkg/errors"
 )
 
@@ -534,7 +534,7 @@ func (PeerResolver) Resolve(did string, opts ResolutionOptions) (*DIDResolutionR
 			return nil, fmt.Errorf("%s method not supported", m)
 		}
 	}
-	// TODO(gabe) full resolution support to be added in https://github.com/TBD54566975/ssi-sdk/issues/38
+	// TODO(gabe) full resolution support to be added in https://github.com/authnull0/ssi-sdk/issues/38
 	return nil, fmt.Errorf("could not resolve peer DID: %s", did)
 }
 

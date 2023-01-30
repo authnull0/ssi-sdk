@@ -3,7 +3,7 @@ package verification
 import (
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,4 +1,4 @@
-module github.com/TBD54566975/ssi-sdk
+module github.com/authnull0/ssi-sdk
 
 go 1.19
 

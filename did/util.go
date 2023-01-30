@@ -4,9 +4,9 @@ import (
 	gocrypto "crypto"
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/multiformats/go-multibase"
 	"github.com/multiformats/go-multicodec"
 	"github.com/multiformats/go-varint"

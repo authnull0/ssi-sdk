@@ -4,8 +4,8 @@ import (
 	gocrypto "crypto"
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/lestrrat-go/jwx/jwa"
 	"github.com/lestrrat-go/jwx/jws"
 	"github.com/pkg/errors"

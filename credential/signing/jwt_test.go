@@ -5,10 +5,10 @@ package signing
 import (
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential"
 )
 
 func TestVerifiableCredentialJWT(t *testing.T) {

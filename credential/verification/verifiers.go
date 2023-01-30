@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	credschema "github.com/TBD54566975/ssi-sdk/credential/schema"
+	"github.com/authnull0/ssi-sdk/credential"
+	credschema "github.com/authnull0/ssi-sdk/credential/schema"
 	"github.com/pkg/errors"
 )
 

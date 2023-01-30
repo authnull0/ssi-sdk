@@ -3,7 +3,7 @@ package exchange
 import (
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 	"github.com/lestrrat-go/jwx/jwt"
@@ -25,7 +25,7 @@ const (
 
 // BuildPresentationRequest https://identity.foundation/presentation-exchange/#presentation-request
 // used for transmitting a Presentation Definition from a holder to a verifier. Target is who the request is intended for.
-// TODO(gabe) expand to other presentation types and signers https://github.com/TBD54566975/ssi-sdk/issues/57
+// TODO(gabe) expand to other presentation types and signers https://github.com/authnull0/ssi-sdk/issues/57
 func BuildPresentationRequest(signer crypto.JWTSigner, pt PresentationRequestType, def PresentationDefinition, target string) ([]byte, error) {
 	if !IsSupportedPresentationRequestType(pt) {
 		return nil, fmt.Errorf("unsupported presentation request type: %s", pt)

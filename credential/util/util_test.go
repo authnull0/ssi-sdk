@@ -3,10 +3,10 @@ package util
 import (
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/signing"
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/signing"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
 	"github.com/stretchr/testify/assert"
 )
 

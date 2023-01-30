@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/TBD54566975/ssi-sdk/schema"
+	"github.com/authnull0/ssi-sdk/schema"
 )
 
 // TestMain is used to set up schema caching in order to load all schemas locally

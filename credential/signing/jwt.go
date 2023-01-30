@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 	"github.com/lestrrat-go/jwx/jwa"
@@ -21,7 +21,7 @@ const (
 )
 
 // SignVerifiableCredentialJWT is prepared according to https://www.w3.org/TR/vc-data-model/#jwt-encoding
-// which will soon be deprecated by https://w3c.github.io/vc-jwt/ see: https://github.com/TBD54566975/ssi-sdk/issues/191
+// which will soon be deprecated by https://w3c.github.io/vc-jwt/ see: https://github.com/authnull0/ssi-sdk/issues/191
 func SignVerifiableCredentialJWT(signer crypto.JWTSigner, cred credential.VerifiableCredential) ([]byte, error) {
 	if cred.IsEmpty() {
 		return nil, errors.New("credential cannot be empty")

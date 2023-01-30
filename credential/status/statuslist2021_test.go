@@ -7,7 +7,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential"
 )
 
 func TestGenerateStatusList2021Credential(t *testing.T) {

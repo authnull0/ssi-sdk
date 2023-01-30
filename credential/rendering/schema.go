@@ -1,7 +1,7 @@
 package rendering
 
 import (
-	"github.com/TBD54566975/ssi-sdk/schema"
+	"github.com/authnull0/ssi-sdk/schema"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

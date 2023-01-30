@@ -7,7 +7,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 
-	vc "github.com/TBD54566975/ssi-sdk/credential"
+	vc "github.com/authnull0/ssi-sdk/credential"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/TBD54566975/ssi-sdk/credential/exchange"
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/credential/exchange"
+	"github.com/authnull0/ssi-sdk/crypto"
 )
 
 func TestCredentialManifestBuilder(t *testing.T) {

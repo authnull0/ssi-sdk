@@ -54,12 +54,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/example"
-	emp "github.com/TBD54566975/ssi-sdk/example/usecase/employer_university_flow/pkg"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/example"
+	emp "github.com/authnull0/ssi-sdk/example/usecase/employer_university_flow/pkg"
 
-	"github.com/TBD54566975/ssi-sdk/credential/signing"
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/credential/signing"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
 	"github.com/sirupsen/logrus"
 )
 

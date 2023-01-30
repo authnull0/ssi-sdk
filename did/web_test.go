@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/h2non/gock.v1"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

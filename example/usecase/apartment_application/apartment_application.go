@@ -14,13 +14,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/exchange"
-	"github.com/TBD54566975/ssi-sdk/credential/signing"
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/did"
-	"github.com/TBD54566975/ssi-sdk/example"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/exchange"
+	"github.com/authnull0/ssi-sdk/credential/signing"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/did"
+	"github.com/authnull0/ssi-sdk/example"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/goccy/go-json"
 )
 
@@ -133,7 +133,7 @@ func main() {
 	example.HandleExampleError(err, "Failed to verify presentation request")
 	example.HandleExampleError(verifiedPresentationDefinition.IsValid(), "Verified presentation definition is not valid")
 
-	// TODO: (neal) (issue https://github.com/TBD54566975/ssi-sdk/issues/165)
+	// TODO: (neal) (issue https://github.com/authnull0/ssi-sdk/issues/165)
 	// Have the presentation claim's token format support signedVCBytes for the BuildPresentationSubmission function
 	vsJSON, err := signing.ParseVerifiableCredentialFromJWT(string(signedVCBytes))
 	example.HandleExampleError(err, "Failed to parse VC")

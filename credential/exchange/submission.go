@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/signing"
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/signing"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 	"github.com/oliveagle/jsonpath"
@@ -454,7 +454,7 @@ func processInputDescriptorField(field Field, claimData map[string]interface{}) 
 	return nil, false
 }
 
-// TODO(gabe) https://github.com/TBD54566975/ssi-sdk/issues/56
+// TODO(gabe) https://github.com/authnull0/ssi-sdk/issues/56
 // check for certain features we may not support yet: submission requirements, predicates, relational constraints,
 // credential status, JSON-LD framing from https://identity.foundation/presentation-exchange/#features
 func canProcessDefinition(def PresentationDefinition) error {

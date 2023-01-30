@@ -8,11 +8,11 @@ import (
 	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/mr-tron/base58"
 
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
 
 	"github.com/pkg/errors"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 
 	"github.com/multiformats/go-multibase"
 	"github.com/multiformats/go-multicodec"
@@ -275,7 +275,7 @@ func (KeyResolver) Resolve(did string, _ ResolutionOptions) (*DIDResolutionResul
 	if err != nil {
 		return nil, errors.Wrapf(err, "could not expand did:key DID: %s", did)
 	}
-	// TODO(gabe) full resolution support to be added in https://github.com/TBD54566975/ssi-sdk/issues/38
+	// TODO(gabe) full resolution support to be added in https://github.com/authnull0/ssi-sdk/issues/38
 	return &DIDResolutionResult{DIDDocument: *doc}, nil
 }
 

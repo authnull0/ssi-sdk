@@ -3,7 +3,7 @@ package did
 import (
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

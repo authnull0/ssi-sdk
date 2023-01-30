@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/schema"
+	"github.com/authnull0/ssi-sdk/schema"
 	"github.com/stretchr/testify/assert"
 )
 

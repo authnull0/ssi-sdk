@@ -1,9 +1,9 @@
-[![godoc ssi-sdk](https://img.shields.io/badge/godoc-ssi--sdk-blue)](https://pkg.go.dev/github.com/TBD54566975/ssi-sdk)
+[![godoc ssi-sdk](https://img.shields.io/badge/godoc-ssi--sdk-blue)](https://pkg.go.dev/github.com/authnull0/ssi-sdk)
 [![go version 1.19.2](https://img.shields.io/badge/go_version-1.19.2-brightgreen)](https://golang.org/)
-[![Go Report Card A+](https://goreportcard.com/badge/github.com/TBD54566975/ssi-sdk)](https://goreportcard.com/report/github.com/TBD54566975/ssi-sdk)
-[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/TBD54566975/ssi-sdk/blob/main/LICENSE)
-[![issues](https://img.shields.io/github/issues/TBD54566975/ssi-sdk)](https://github.com/TBD54566975/ssi-sdk/issues)
-![ssi-sdk-ci status](https://github.com/TBD54566975/ssi-sdk/workflows/ssi-sdk-ci/badge.svg?branch=main&event=push)
+[![Go Report Card A+](https://goreportcard.com/badge/github.com/authnull0/ssi-sdk)](https://goreportcard.com/report/github.com/authnull0/ssi-sdk)
+[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/authnull0/ssi-sdk/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/TBD54566975/ssi-sdk)](https://github.com/authnull0/ssi-sdk/issues)
+![ssi-sdk-ci status](https://github.com/authnull0/ssi-sdk/workflows/ssi-sdk-ci/badge.svg?branch=main&event=push)
 [![codecov](https://codecov.io/gh/TBD54566975/ssi-sdk/branch/main/graph/badge.svg?token=8SD0TO9Z9E)](https://codecov.io/gh/TBD54566975/ssi-sdk)
 
 # ssi-sdk
@@ -28,9 +28,9 @@ For more information, see the [vision document](doc/VISION.md).
 # Contributing
 
 This project is fully open source, and we welcome contributions! For more information please see
-[CONTRIBUTING](https://github.com/TBD54566975/ssi-sdk/blob/main/CONTRIBUTING.md). Our current thinking about the
+[CONTRIBUTING](https://github.com/authnull0/ssi-sdk/blob/main/CONTRIBUTING.md). Our current thinking about the
 development of the library is captured in
-[GitHub Issues](https://github.com/TBD54566975/ssi-sdk/issues).
+[GitHub Issues](https://github.com/authnull0/ssi-sdk/issues).
 
 # Specifications
 
@@ -72,7 +72,7 @@ change as the library evolves.
 # Building
 
 This project uses [mage](https://magefile.org/), please
-view [CONTRIBUTING](https://github.com/TBD54566975/ssi-sdk/blob/main/CONTRIBUTING.md) for more information.
+view [CONTRIBUTING](https://github.com/authnull0/ssi-sdk/blob/main/CONTRIBUTING.md) for more information.
 
 After installing mage, you can build and test the SDK with the following commands:
 
@@ -128,9 +128,9 @@ To run the examples use the following command
 
 | Resource                                                                               | Description                                                                   |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [VISION](https://github.com/TBD54566975/ssi-sdk/blob/main/doc/VISION.md)               | Outlines the project vision                                                   |
-| [VERSIONING](https://github.com/TBD54566975/ssi-sdk/blob/main/doc/VERSIONING.md)       | Project versioning strategy                                                   |
-| [CODE_OF_CONDUCT](https://github.com/TBD54566975/ssi-sdk/blob/main/CODE_OF_CONDUCT.md) | Expected behavior for project contributors, promoting a welcoming environment |
-| [CONTRIBUTING](https://github.com/TBD54566975/ssi-sdk/blob/main/CONTRIBUTING.md)       | Developer guide to build, test, run, access CI, chat, discuss, file issues    |
-| [GOVERNANCE](https://github.com/TBD54566975/ssi-sdk/blob/main/GOVERNANCE.md)           | Project governance                                                            |
-| [LICENSE](https://github.com/TBD54566975/ssi-sdk/blob/main/LICENSE)                    | Apache License, Version 2.0                                                   |
+| [VISION](https://github.com/authnull0/ssi-sdk/blob/main/doc/VISION.md)               | Outlines the project vision                                                   |
+| [VERSIONING](https://github.com/authnull0/ssi-sdk/blob/main/doc/VERSIONING.md)       | Project versioning strategy                                                   |
+| [CODE_OF_CONDUCT](https://github.com/authnull0/ssi-sdk/blob/main/CODE_OF_CONDUCT.md) | Expected behavior for project contributors, promoting a welcoming environment |
+| [CONTRIBUTING](https://github.com/authnull0/ssi-sdk/blob/main/CONTRIBUTING.md)       | Developer guide to build, test, run, access CI, chat, discuss, file issues    |
+| [GOVERNANCE](https://github.com/authnull0/ssi-sdk/blob/main/GOVERNANCE.md)           | Project governance                                                            |
+| [LICENSE](https://github.com/authnull0/ssi-sdk/blob/main/LICENSE)                    | Apache License, Version 2.0                                                   |

@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/pkg/errors"
 )
 
@@ -255,7 +255,7 @@ func (PKHResolver) Resolve(did string, _ ResolutionOptions) (*DIDResolutionResul
 	if err != nil {
 		return nil, errors.Wrapf(err, "could not expand did:pkh DID: %s", did)
 	}
-	// TODO(gabe) full resolution support to be added in https://github.com/TBD54566975/ssi-sdk/issues/38
+	// TODO(gabe) full resolution support to be added in https://github.com/authnull0/ssi-sdk/issues/38
 	return &DIDResolutionResult{DIDDocument: *doc}, nil
 }
 

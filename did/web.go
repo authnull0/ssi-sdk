@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/pkg/errors"
 )
 
@@ -149,7 +149,7 @@ func (WebResolver) Resolve(did string, _ ResolutionOptions) (*DIDResolutionResul
 	if err != nil {
 		return nil, errors.Wrapf(err, "could not resolve did:web DID: %s", did)
 	}
-	// TODO(gabe) full resolution support to be added in https://github.com/TBD54566975/ssi-sdk/issues/38
+	// TODO(gabe) full resolution support to be added in https://github.com/authnull0/ssi-sdk/issues/38
 	return &DIDResolutionResult{DIDDocument: *doc}, nil
 }
 

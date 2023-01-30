@@ -6,10 +6,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/did"
-	"github.com/TBD54566975/ssi-sdk/example"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/did"
+	"github.com/authnull0/ssi-sdk/example"
+	"github.com/authnull0/ssi-sdk/util"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 	// GenerateDIDKey takes in a key type value that this library supports and constructs a conformant did:key identifier.
 	// To use the private key, it is recommended to re-cast to the associated type.
 	// The function returns the associated private key value cast to the generic golang crypto.PrivateKey interface.
-	// See more here: https://github.com/TBD54566975/ssi-sdk/blob/main/did/key.go#L51
+	// See more here: https://github.com/authnull0/ssi-sdk/blob/main/did/key.go#L51
 	_, didKey, err := did.GenerateDIDBrcm(crypto.SECP256k1)
 	if err != nil {
 		example.HandleExampleError(err, "failed to generate key")

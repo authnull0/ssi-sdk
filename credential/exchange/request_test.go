@@ -3,7 +3,7 @@ package exchange
 import (
 	"testing"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/crypto"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 )

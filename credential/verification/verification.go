@@ -3,8 +3,8 @@ package verification
 import (
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/pkg/errors"
 )
 

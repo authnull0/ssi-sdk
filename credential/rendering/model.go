@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/util"
 )
 
 // EntityStyleDescriptor https://identity.foundation/wallet-rendering/#entity-styles

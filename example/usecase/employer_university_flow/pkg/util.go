@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/exchange"
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/cryptosuite"
-	"github.com/TBD54566975/ssi-sdk/did"
-	"github.com/TBD54566975/ssi-sdk/example"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/exchange"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/cryptosuite"
+	"github.com/authnull0/ssi-sdk/did"
+	"github.com/authnull0/ssi-sdk/example"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/sirupsen/logrus"
 )
 
@@ -84,7 +84,7 @@ func validateVC(vc credential.VerifiableCredential) error {
 // MakePresentationRequest Builds a presentation request (PR). A PR is sent by a holder to a verifier. It can be sent
 // over multiple mechanisms. For more information, please go to here:
 // https://identity.foundation/presentation-exchange/#presentation-request and for the source code with the sdk,
-// https://github.com/TBD54566975/ssi-sdk/blob/main/credential/exchange/request.go is appropriate to start off with.
+// https://github.com/authnull0/ssi-sdk/blob/main/credential/exchange/request.go is appropriate to start off with.
 func MakePresentationRequest(jwk cryptosuite.JSONWebKey2020, presentationData exchange.PresentationDefinition, targetID string) (pr []byte, signer *crypto.JWTSigner, err error) {
 	example.WriteNote("Presentation Request (JWT) is created")
 
@@ -138,7 +138,7 @@ func normalizePresentationClaims(claims []exchange.PresentationClaim) []exchange
 }
 
 // BuildPresentationSubmission builds a submission using...
-// https://github.com/TBD54566975/ssi-sdk/blob/d279ca2779361091a70b8aa3c685a388067409a9/credential/exchange/submission.go#L126
+// https://github.com/authnull0/ssi-sdk/blob/d279ca2779361091a70b8aa3c685a388067409a9/credential/exchange/submission.go#L126
 func BuildPresentationSubmission(presentationRequest []byte, signer crypto.JWTSigner, verifier crypto.JWTVerifier, vc credential.VerifiableCredential) ([]byte, error) {
 	presentationClaim := exchange.PresentationClaim{
 		Credential:                    &vc,

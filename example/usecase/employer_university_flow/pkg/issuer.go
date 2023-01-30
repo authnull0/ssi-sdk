@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/example"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/example"
 	"github.com/sirupsen/logrus"
 )
 
@@ -38,11 +38,11 @@ func BuildExampleUniversityVC(universityID, recipient string) (*credential.Verif
 	}
 	// This is an embedded proof.
 	// For more information
-	// https://github.com/TBD54566975/ssi-sdk/blob/main/cryptosuite/jwssignaturesuite_test.go#L357
+	// https://github.com/authnull0/ssi-sdk/blob/main/cryptosuite/jwssignaturesuite_test.go#L357
 	// https://www.w3.org/TR/vc-data-model/#proofs-signatures
 
 	// For more information on VC object, go to:
-	// https://github.com/TBD54566975/ssi-sdk/blob/main/credential/model.go
+	// https://github.com/authnull0/ssi-sdk/blob/main/credential/model.go
 	knownCred := credential.VerifiableCredential{
 		Context:           knownContext,
 		ID:                knownID,

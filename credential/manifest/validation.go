@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TBD54566975/ssi-sdk/credential/exchange"
-	credutil "github.com/TBD54566975/ssi-sdk/credential/util"
-	errresp "github.com/TBD54566975/ssi-sdk/error"
-	"github.com/TBD54566975/ssi-sdk/util"
+	"github.com/authnull0/ssi-sdk/credential/exchange"
+	credutil "github.com/authnull0/ssi-sdk/credential/util"
+	errresp "github.com/authnull0/ssi-sdk/error"
+	"github.com/authnull0/ssi-sdk/util"
 	"github.com/goccy/go-json"
 	"github.com/oliveagle/jsonpath"
 	"github.com/pkg/errors"
@@ -160,7 +160,7 @@ func IsValidCredentialApplicationForManifest(cm CredentialManifest, applicationA
 		}
 
 		// TODO(gabe) support nested paths in presentation submissions
-		// https://github.com/TBD54566975/ssi-sdk/issues/73
+		// https://github.com/authnull0/ssi-sdk/issues/73
 		if submissionDescriptor.PathNested != nil {
 			errMsg := fmt.Sprintf("submission with nested paths not supported: %s", submissionDescriptor.ID)
 			unfulfilledInputDescriptors[inputDescriptor.ID] = errMsg
@@ -233,4 +233,4 @@ func findMatchingPath(claim interface{}, paths []string) error {
 	return errors.New("matching path for claim could not be found")
 }
 
-// TODO(gabe) support multiple embed targets https://github.com/TBD54566975/ssi-sdk/issues/57
+// TODO(gabe) support multiple embed targets https://github.com/authnull0/ssi-sdk/issues/57

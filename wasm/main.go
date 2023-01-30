@@ -11,8 +11,8 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/did"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/did"
 )
 
 /*

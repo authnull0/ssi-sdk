@@ -16,12 +16,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/TBD54566975/ssi-sdk/credential"
-	"github.com/TBD54566975/ssi-sdk/credential/exchange"
-	"github.com/TBD54566975/ssi-sdk/credential/manifest"
-	"github.com/TBD54566975/ssi-sdk/crypto"
-	"github.com/TBD54566975/ssi-sdk/did"
-	"github.com/TBD54566975/ssi-sdk/example"
+	"github.com/authnull0/ssi-sdk/credential"
+	"github.com/authnull0/ssi-sdk/credential/exchange"
+	"github.com/authnull0/ssi-sdk/credential/manifest"
+	"github.com/authnull0/ssi-sdk/crypto"
+	"github.com/authnull0/ssi-sdk/did"
+	"github.com/authnull0/ssi-sdk/example"
 )
 
 type Entity struct {
