@@ -9,6 +9,7 @@ const (
 	PeerMethod Method = "peer"
 	PKHMethod  Method = "pkh"
 	WebMethod  Method = "web"
+	BrcmMethod Method = "brcm"
 )
 
 func (m Method) String() string {
